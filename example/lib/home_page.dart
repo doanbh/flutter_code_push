@@ -283,6 +283,9 @@ class _MyHomePageState extends State<MyHomePage> {
       return;
     }
 
+    print(tasks);
+    print(tasks.where((element) => element.savedDir.isNotEmpty).toList().map((e) => '${e.savedDir}/${e.filename}').join(','));
+
     var count = 0;
     _tasks = [];
     _items = [];

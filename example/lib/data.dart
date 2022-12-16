@@ -10,6 +10,13 @@ class DownloadItems {
       url:
           'http://englishonlineclub.com/pdf/iOS%20Programming%20-%20The%20Big%20Nerd%20Ranch%20Guide%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf',
     ),
+    DownloadItem(
+        name: 'Download image',
+        url: 'https://cdn-133.anonfiles.com/127e3fM2yf/3c9c353e-1670990161/Screen%20Shot%202022-12-09%20at%2015.46.54.png'
+    ),
+    DownloadItem(
+        name: 'Download Module', url: 'https://cdn-117.anonfiles.com/d5613eM3y7/17c87906-1670989893/program.evc'
+    )
   ];
 
   static const images = [
